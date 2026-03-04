@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BestChriii - Developer & Digital Solutions</title>
+    <meta name="description" content="Sviluppatore professionista specializzato in web development, bot Discord, applicazioni Java/Python e soluzioni digitali innovative.">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&family=Share+Tech+Mono&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <div class="cyber-grid"></div>
+    <div class="scanline"></div>
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text glitch" data-text="BestChriii">BestChriii</span>
+                <span class="logo-bracket">]</span>
+
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link"><span class="nav-number">01.</span>Home</a></li>
+                <li><a href="#about" class="nav-link"><span class="nav-number">02.</span>About</a></li>
+                <li><a href="#services" class="nav-link"><span class="nav-number">03.</span>Services</a></li>
+                <li><a href="#portfolio" class="nav-link"><span class="nav-number">04.</span>Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link"><span class="nav-number">05.</span>Pricing</a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-number">06.</span>Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-dot"></span>
+                    <span class="terminal-title">christian@portfolio:~$</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line">
+                        <span class="terminal-prompt">root@christian:~$</span> 
+                        <span class="terminal-command typed-text">info</span>
+                    </p>
+                    <p class="terminal-output">
+                        > Sviluppatore Web & Software Engineer<br>
+                        > Trasformo idee in progetti veri e propri
+                    </p>
+                </div>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="hero-greeting">Ciao, sono</span>
+                <span class="hero-name glitch">Christian</span>
+            </h1>
+            
+            <p class="hero-description">
+                <span class="code-bracket">{'</span>
+                Mi occupo di sviluppare siti web, bot Discord, applicazioni e script. 
+                Lavoro con passione per realizzare <span class="highlight">soluzioni su misura</span>, 
+                facendo attenzione alla <span class="highlight">sicurezza e all'esperienza dell'utente</span>. <br> 
+                Ti chiederai quele è il mio obiettivo? Il mio obbiettivo è realizzare progetti che funzionano e che seguono le richieste del cliente.
+                <span class="code-bracket">'}</span>
+            </p>
+
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <div class="stat-number">50<span class="plus">+</span></div>
+                    <div class="stat-label">progetti completati</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">3<span class="plus">+</span></div>
+                    <div class="stat-label">anni esperienza</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">100<span class="plus">%</span></div>
+                    <div class="stat-label">clienti soddisfatti</div>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#services" class="btn btn-primary">
+                    <span class="btn-text">Scopri i servizi</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span class="btn-text">Contattami</span>
+                    <span class="btn-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-number">02.</span>
+                    <span class="glitch" data-text="Chi Sono">Chi Sono</span>
+                </h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+
+                    <p class="about-description">
+                        Hey! Io sono uno sviluppatore con una grande passione per l'informatica. 
+                        Quello che mi appassiona maggiormente è la possibilità di trasformare un'idea in qualcosa di 
+                        concreto e funzionale. Mi piace lavorare a stretto contatto con i clienti per 
+                        capire davvero di cosa hanno bisogno e consegnare un prodotto che vada oltre le loro aspettative iniziali.
+                    </p>
+
+                    <div class="tech-stack">
+                        <h3 class="tech-title"><span class="code-bracket">{</span> Competenze <span class="code-bracket">}</span></h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-discord"></i>
+                                <span>Discord.py</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-number">03.</span>
+                    <span class="glitch" data-text="Servizi">Servizi</span>
+                </h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-service="web">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Siti web</h3>
+                    </div>
+                    <p class="service-description">
+                        Creo siti web funzionanti su tutti i dispositivi. 
+                        Mi occupo principalmente del codice, ma con un abbonamento si può anche pubblicare.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Design Responsive</li>
+                        <li><span class="feature-icon">▹</span> Ottimizzazione SEO</li>
+                        <li><span class="feature-icon">▹</span> Portfolio personalizzati</li>
+                        <li><span class="feature-icon">▹</span> E-commerce Solutions</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status">DISPONIBILE</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="discord">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h3 class="service-title">Bot Discord</h3>
+                    </div>
+                    <p class="service-description">
+                        Sviluppo bot Discord personalizzati per la tua community. 
+                        Dalla moderazione al supporto con i ticket, posso creare tutto quello che serve.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Moderazione Avanzata</li>
+                        <li><span class="feature-icon">▹</span> Sistema Ticket</li>
+                        <li><span class="feature-icon">▹</span> Comandi Custom</li>
+                        <li><span class="feature-icon">▹</span> Database</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status featured">PIÙ RICHIESTO</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="java">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3 class="service-title">Applicazioni Java</h3>
+                    </div>
+                    <p class="service-description">
+                        Realizzo applicazioni desktop e plugin Minecraft su misura.
+                        Se hai un'idea per un plugin o un programma Java, posso trasformarla in realtà!
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Plugin Minecraft</li>
+                        <li><span class="feature-icon">▹</span> Desktop Apps</li>
+                        <li><span class="feature-icon">▹</span> Videogiochi 2D</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status">DISPONIBILE</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="python">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3 class="service-title">Python</h3>
+                    </div>
+                    <p class="service-description">
+                        Ti aiuto ad automatizzare le tasks quotidiane con Python. 
+                        Bot, script personalizzati o applicazioni desktop, se hai bisogno di qualcosa che semplifichi la tua vita, posso crearlo per te!
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Bot (Discord, Telegram)</li>
+                        <li><span class="feature-icon">▹</span> Automatizzazione attività</li>
+                        <li><span class="feature-icon">▹</span> Applicazioni</li>
+                        <li><span class="feature-icon">▹</span> Web Scraping base</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status">DISPONIBILE</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="video">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="service-title">Video Editing</h3>
+                    </div>
+                    <p class="service-description">
+                        Editing video professionale per YouTube, TikTok e tutti i social media. 
+                        Dal montaggio base agli effetti più particolari, realizzo video che catturano l'attenzione.
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Montaggio professionale</li>
+                        <li><span class="feature-icon">▹</span> Effetti Speciali</li>
+                        <li><span class="feature-icon">▹</span> Color Grading</li>
+                        <li><span class="feature-icon">▹</span> Export Personalizzato</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status">DISPONIBILE</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="consulting">
+                    <div class="service-header">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="service-title">Consulenza tecnica</h3>
+                    </div>
+                    <p class="service-description">
+                        Ti serve una mano con la tecnologia? Offro consulenza per l'acquisto di PC, 
+                        ottimizzazione per il gaming, setup domini e molto altro. Parliamone!
+                    </p>
+                    <ul class="service-features">
+                        <li><span class="feature-icon">▹</span> Setup di domini</li>
+                        <li><span class="feature-icon">▹</span> Configurazione server </li>
+                        <li><span class="feature-icon">▹</span> Ottimizzazione PC</li>
+                        <li><span class="feature-icon">▹</span> Consulenza Hardware</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-status">DISPONIBILE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-number">04.</span>
+                    <span class="glitch" data-text="Portfolio">Portfolio</span>
+                </h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/images/goldencraft.png" alt="GoldenCraft">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://goldencraft.it" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-featured">FEATURED PROJECT</span>
+                            <h3 class="project-title">goldencraft.it</h3>
+                        </div>
+                        <p class="project-description">
+                            Ho realizzato un sito completo per questo server Minecraft, includendo un bot Discord 
+                            personalizzato e vari plugin. Un progetto che ha richiesto diverse competenze e tanto lavoro!
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/images/python.png" alt="Discord Bot">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <span class="project-link disabled">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Bot discord completo</h3>
+                        </div>
+                        <p class="project-description">
+                            Un bot Discord completo, con sistema di moderazione automatica e supporto con i ticket. 
+                            Include anche un database per gestire tutte le informazioni in modo sicuro.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Discord.py</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/images/portfolio.png" alt="Portfolio">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#home" class="project-link">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Portfolio Personalizzato</h3>
+                        </div>
+                        <p class="project-description">
+                            Questo portfolio che stai guardando! Design unico e personalizzato, con animazioni interattive, 
+                            completamente responsive e ottimizzato per tutti i dispositivi.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-number">05.</span>
+                    <span class="glitch" data-text="Prezzi">Prezzi</span>
+                </h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="pricing-note-top">
+                <i class="fas fa-info-circle"></i>
+                <p>Questi prezzi sono di partenza, ogni progetto è unico! Scrivimi e parliamo insieme di cosa ti serve, ti farò un preventivo gratuito.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <span class="price-label">Sito Statico</span>
+                            <span class="price-value">€50<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Portfolio</span>
+                            <span class="price-value">€60<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Sito Dinamico</span>
+                            <span class="price-value">€80<span class="price-plus">+</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="featured-badge">PIÙ RICHIESTO</div>
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h3>Bot Discord</h3>
+                    </div>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <span class="price-label">Bot Semplice</span>
+                            <span class="price-value">€20<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Bot Avanzato</span>
+                            <span class="price-value">€80<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Sistema Completo</span>
+                            <span class="price-value">€180<span class="price-plus">+</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java Development</h3>
+                    </div>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <span class="price-label">Desktop App</span>
+                            <span class="price-value">€20<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Plugin Minecraft</span>
+                            <span class="price-value">€30<span class="price-plus">+</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Altri Servizi</h3>
+                    </div>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <span class="price-label">Video Editing</span>
+                            <span class="price-value">€50<span class="price-unit">/5 video</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Script Custom</span>
+                            <span class="price-value">€10<span class="price-plus">+</span></span>
+                        </div>
+                        <div class="pricing-item">
+                            <span class="price-label">Setup Domini</span>
+                            <span class="price-value">€20<span class="price-plus">+</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-cta">
+                <p>Vuoi saperne di più? Scrivimi su <a class="highlight" href="https://instagram.com/im.chriii" target="_blank">Instagram</a>, rispondo sempre!</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span class="btn-text">Parliamone insieme</span>
+                    <span class="btn-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="section-number">06.</span>
+                    <span class="glitch" data-text="Contatti">Contatti</span>
+                </h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-intro">
+                    <h3 class="contact-title">Hai un progetto in mente?</h3>
+                    <p class="contact-description">
+                        Scrivimi pure! Sarò felice di aiutarti. 
+                        Di solito rispondo entro <span class="highlight">24 ore</span> e la prima 
+                        consulenza è sempre <span class="highlight">gratuita</span>. 
+                        Non costa nulla chiedere, no?
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:bestchriii@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email</h4>
+                            <p>contattami</p>
+                        </div>
+                        <div class="contact-arrow">→</div>
+                    </a>
+
+                    <a href="https://www.instagram.com/bestchriii" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Instagram</h4>
+                            <p>contattami</p>
+                        </div>
+                        <div class="contact-arrow">→</div>
+                    </a>
+
+                    <a href="https://t.me/BestChriii" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Telegram</h4>
+                            <p>contattami</p>
+                        </div>
+                        <div class="contact-arrow">→</div>
+                    </a>
+
+                    <a href="https://discord.com/channels/@me/1089974561648414770" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Discord</h4>
+                            <p>contattami</p>
+                        </div>
+                        <div class="contact-arrow">→</div>
+                    </a>
+                </div>
+
+                <div class="social-section">
+                    <h3 class="social-title">Seguimi sui social</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/bestchriii" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://t.me/BestChriii" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://discord.com/channels/@me/1089974561648414770" target="_blank" class="social-link">
+                            <i class="fab fa-discord"></i>
+                            <span>Discord</span>
+                        </a>
+                        <a href="https://github.com/BestChriii" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.paypal.com/paypalme/ChristianPanzeri" target="_blank" class="social-link">
+                            <i class="fab fa-paypal"></i>
+                            <span>PayPal</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-bracket">[</span>
+                        <span class="logo-text">BestChriii</span>
+                        <span class="logo-bracket">]</span>
+                    </div>
+                    <p class="footer-description">
+                        Sviluppatore con la passione per il codice e l'innovazione. Se hai un'idea, io posso realizzarla!
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-copyright">
+                        © 2024-2025 BestChriii. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
